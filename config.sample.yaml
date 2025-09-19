@@ -1,0 +1,10 @@
+# config.sample.yaml
+deck: "Default"
+model: "Basic"
+input: "data/notes_sample.json"   # サンプル入力
+host: "http://localhost"
+port: 8765
+allow_duplicate: false
+tags:
+  - "sample"
+  - "auto-added"

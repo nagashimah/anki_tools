@@ -1,0 +1,4 @@
+[
+  {"front": "Hello", "back": "こんにちは", "tags": ["greet", "en-ja"]},
+  {"front": "Apple", "back": "りんご"}
+]

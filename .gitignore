@@ -1,3 +1,21 @@
+# --- anki_tools data rules ---
+# ignore all CSV/JSON under data/ (including subdirs)
+data/*.csv
+data/*.json
+data/**/*.csv
+data/**/*.json
+
+# but keep sample files
+!data/notes_sample.csv
+!data/notes_sample.json
+
+# keep empty dir placeholder if needed
+data/.gitkeep
+
+# --- anki_tools config rules ---
+config.yaml
+config.local.yaml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
