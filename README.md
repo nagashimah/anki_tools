@@ -5,6 +5,24 @@ Anki にカードを自動追加するための Python ツールです。
 
 ---
 
+## ディレクトリ構成
+
+```
+anki_tools/
+├── data/
+│   ├── notes_sample.csv      # サンプル入力（CSV）
+│   ├── notes_sample.json     # サンプル入力（JSON）
+├── tools/
+│   ├── __init__.py
+│   ├── add_notes.py          # メインスクリプト
+│   └── client.py             # AnkiConnect クライアント
+├── config.sample.yaml        # 設定サンプル
+├── requirements.txt          # 必要ライブラリ
+└── README.md
+```
+
+---
+
 ## 特徴
 - **JSON / CSV** からカードを追加可能
 - **設定ファイル (`config.yaml`)** に基づいて実行
@@ -18,6 +36,12 @@ Anki にカードを自動追加するための Python ツールです。
 git clone https://github.com/yourname/anki_tools.git
 cd anki_tools
 ````
+
+必要なライブラリをインストールします：
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
